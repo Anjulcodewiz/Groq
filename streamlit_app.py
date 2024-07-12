@@ -8,19 +8,15 @@ st.set_page_config(page_icon="💬", layout="wide",
 
 def icon(emoji: str):
     """Shows an emoji as a Notion-style page icon."""
-    st.write(
-        f'<span style="font-size: 78px; line-height: 1">{emoji}</span>',
-        unsafe_allow_html=True,
-    )
+    st.write(f'<span style="font-size: 78px; line-height: 1">{emoji}</span>',
+            unsafe_allow_html=True,)
 
 
 icon("🏎️")
 
 st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
 
-client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"],
-)
+client = Groq(api_key="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",)
 
 # Initialize chat history and selected model
 if "messages" not in st.session_state:
