@@ -8,12 +8,6 @@ This [Streamlit](https://streamlit.io/) app integrates with the [Groq API](https
 
 It is blazing FAST; try it and see! 🏎️ 💨 💨 💨
 
-**Check out the video tutorial 👇**
-
-<a href="https://youtu.be/WQvinJGYk90">
-  <img src="https://img.youtube.com/vi/WQvinJGYk90/hqdefault.jpg" alt="Watch the video" width="100%">
-</a>
-
 ## Features
 
 - **Model Selection**: Users can select between `mixtral-8x7b-32768`, `llama2-70b-4096`, `Gemma-7b-it`, `llama2-70b-4096`, `llama3-70b-8192`, and `lama3-8b-8192` models to tailor the conversation according to each model's capabilities.
